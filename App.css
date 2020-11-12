@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: black;
+}
+.nav-links{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-weight:400;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  
+  
+}
+.friend{
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  display: flex;
+  text-transform:capitalize;
+  text-indent: 0.5rem;
+  margin-left: 0px;
+  padding-left:0px ;
+  
+
+}
+.myfriend{
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-indent:0.5rem;
+  display: flex;
+  margin-left: 0px;
+  padding-left:0px;
+  
+ 
+  
+}
+.your{
+  font-weight:700;
+  margin-right:px;
+  padding-right:px;
+  
+}
+.addbutton{
+ background:lightblue;
+ border: none;
+ color:black;
+ padding: 0.5rem 1rem;
+ text-transform: uppercase;
+ font-weight: bold;
+ cursor: pointer;
+ outline: none;
+ transition: all ease 0.2s;
+ display: row;
+ 
+}
+.addbutton:hover{
+  opacity: 0.9;
+}
+.removebutton{
+  background:red;
+ border: none;
+ color:black;
+ padding: 0.5rem 1rem;
+ text-transform: uppercase;
+ font-weight: bold;
+ cursor: pointer;
+ outline: none;
+ transition: all ease 0.2s;
+ display: row;
+}
+.removebutton:hover{
+  opacity: 0.9;
+}
+.ulll{
+  list-style:none;
+  display: row;
+}
+
+
+
